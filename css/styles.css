@@ -1,0 +1,118 @@
+*{
+    font-family: Raleway;
+}
+@media screen and (min-width: 992px){
+    .navbar-brand {
+        margin-right: 48%;
+    }
+}
+@media screen and (min-width: 1060px){
+    .navbar-brand {
+        margin-right: 53%;
+    }
+}
+@media screen and (min-width: 1200px){
+    .navbar-brand {
+        margin-right: 60%;
+    }
+}
+.intro{
+    background: linear-gradient(0deg, rgba(43,43,43,0.56), rgba(43,43,43,0.56)), url(../img/mac.jpeg) repeat;
+    background-size: cover;
+    height: 380px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 135px;
+    padding-bottom: 130px;
+    color: #fff;
+    text-align: center;
+}
+.slides{
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.main{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.row{
+    margin-top: 65px;
+}
+@media screen and (min-width: 100px){
+    .row{
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+.description{
+    padding-top: 150px;
+}
+@media screen and (min-width: 992px){
+    .article-right{
+        order: 2;
+    }
+}
+@media screen and (max-width: 991px){
+    .row{
+        margin-top: 40px;
+    }
+    .description{
+        padding-top: 0;
+    }
+}
+footer{
+    margin-top: 25px;
+    border-top: 2px solid #f29341;
+    background-color: rgb(8, 22, 33);
+}
+footer .row{
+    line-height: 40px;
+    margin-top: 0;
+}
+.col-xs-12, .col-sm-12, .col-md-12, .col-lg-4, .col-xl-4{
+    margin-top: 15px;
+}
+.credit{
+    color: #fff;
+}
+.social-links > a{
+    text-decoration: none;
+}
+.social-links .fab{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.social-links .fa-facebook{
+    color: #3b5998;
+}
+.social-links .fa-twitter{
+    color: #00aced;
+}
+.social-links .fa-instagram{
+    color: #bc2a8d;
+}
+.social-links .fa-google-plus{
+    color: #dd4b39;
+}
+.social-links .fa-youtube{
+    color: #bb0000;
+}
+.social-links .fa-linkedin{
+    color: #007bb6;
+}
+@media screen and (max-width: 769px){
+    .col img{
+        width: 50%;
+    }
+}
+.name{
+    font-weight: bold;
+}
+.project-item{
+    border-radius: 3px;
+    box-shadow: 0 0.2rem 1rem 0.2rem #bbb;
+}
+.project-list{
+    margin-bottom: 20px;
+}
