@@ -109,10 +109,10 @@ footer .row{
 .name{
     font-weight: bold;
 }
-.project-item{
+.project-item, .blog-item{
     border-radius: 3px;
     box-shadow: 0 0.2rem 1rem 0.2rem #bbb;
 }
-.project-list{
+.project-list, .blog-list{
     margin-bottom: 20px;
 }
