@@ -101,7 +101,7 @@ footer .row{
 .social-links .fa-linkedin{
     color: #007bb6;
 }
-@media screen and (max-width: 769px){
+@media screen and (max-width: 768px){
     .col img{
         width: 50%;
     }
@@ -112,7 +112,4 @@ footer .row{
 .project-item, .blog-item{
     border-radius: 3px;
     box-shadow: 0 0.2rem 1rem 0.2rem #bbb;
-}
-.project-list, .blog-list{
-    margin-bottom: 20px;
 }
