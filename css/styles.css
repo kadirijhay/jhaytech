@@ -1,6 +1,9 @@
 *{
     font-family: Raleway;
 }
+a:hover{
+    text-decoration: none;
+}
 @media screen and (min-width: 992px){
     .navbar-brand {
         margin-right: 48%;
@@ -16,6 +19,7 @@
         margin-right: 60%;
     }
 }
+/* styles for intro */
 .intro{
     background: linear-gradient(0deg, rgba(43,43,43,0.56), rgba(43,43,43,0.56)), url(../img/mac.jpeg) repeat;
     background-size: cover;
@@ -37,7 +41,8 @@
     margin-right: 10px;
 }
 .row{
-    margin-top: 65px;
+    margin-top: 30px;
+    margin-bottom: 35px;
 }
 @media screen and (min-width: 100px){
     .row{
@@ -69,6 +74,7 @@ footer{
 footer .row{
     line-height: 40px;
     margin-top: 0;
+    margin-bottom: 0;
 }
 .col-xs-12, .col-sm-12, .col-md-12, .col-lg-4, .col-xl-4{
     margin-top: 15px;
@@ -106,6 +112,43 @@ footer .row{
         width: 50%;
     }
 }
+/* styles for featured works */
+.featured{
+    overflow: hidden;
+}
+.pixel{
+    background: linear-gradient(0deg, rgba(43,43,43,0.77), rgba(43,43,43,0.77)), url(../img/pixel-art-maker.png) repeat;
+}
+.jhaytech{
+    background: linear-gradient(0deg, rgba(43,43,43,0.77), rgba(43,43,43,0.77)), url(../img/jhaytech-v1.png) repeat;
+}
+.blog{
+    background: linear-gradient(0deg, rgba(43,43,43,0.77), rgba(43,43,43,0.77)), url(../img/jhaytech-blog.png) repeat;
+}
+.letter{
+    background: linear-gradient(0deg, rgba(43,43,43,0.77), rgba(43,43,43,0.77)), url(../img/letter.png) repeat;
+}
+.featured-bg{
+    height: 200px;
+    color: #fff;
+    background-size: cover;
+    padding-top: 50px;
+    border-radius: 3px;
+    background-position:center;
+	transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+.featured-bg:hover{
+    transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+}
+/* Styles for About */
 .name{
     font-weight: bold;
 }
