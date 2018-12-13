@@ -12,4 +12,4 @@ Taking a dive into Bootstrap Grid and Carousel, this repo is a project carried o
 This repo was fully coded with HTML, Bootstrap Framework and an additional CSS
 
 ## License
-This code is Licensed under [MIT](LICENSE) Terms.
+This Project is Licensed under the Terms of [MIT License](LICENSE)
