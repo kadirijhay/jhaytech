@@ -89,70 +89,8 @@ footer .row{
     font-size: 20px;
     margin-right: 10px;
 }
-.social-links .fa-facebook{
-    color: #3b5998;
-}
-.social-links .fa-twitter{
-    color: #00aced;
-}
-.social-links .fa-instagram{
-    color: #bc2a8d;
-}
-.social-links .fa-google-plus{
-    color: #dd4b39;
-}
-.social-links .fa-youtube{
-    color: #bb0000;
-}
-.social-links .fa-linkedin{
-    color: #007bb6;
-}
 @media screen and (max-width: 768px){
     .col img{
         width: 50%;
     }
-}
-/* styles for featured works */
-.featured{
-    overflow: hidden;
-}
-.pixel{
-    background: linear-gradient(0deg, rgba(43,43,43,0.77), rgba(43,43,43,0.77)), url(../img/pixel-art-maker.png) repeat;
-}
-.jhaytech{
-    background: linear-gradient(0deg, rgba(43,43,43,0.77), rgba(43,43,43,0.77)), url(../img/jhaytech-v1.png) repeat;
-}
-.blog{
-    background: linear-gradient(0deg, rgba(43,43,43,0.77), rgba(43,43,43,0.77)), url(../img/jhaytech-blog.png) repeat;
-}
-.letter{
-    background: linear-gradient(0deg, rgba(43,43,43,0.77), rgba(43,43,43,0.77)), url(../img/letter.png) repeat;
-}
-.featured-bg{
-    height: 200px;
-    color: #fff;
-    background-size: cover;
-    padding-top: 50px;
-    border-radius: 3px;
-    background-position:center;
-	transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  -webkit-transition: all 1s ease;
-  -o-transition: all 1s ease;
-}
-.featured-bg:hover{
-    transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  -o-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-}
-/* Styles for About */
-.name{
-    font-weight: bold;
-}
-.project-item, .blog-item{
-    border-radius: 3px;
-    box-shadow: 0 0.2rem 1rem 0.2rem #bbb;
 }
